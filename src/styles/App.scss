@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+/* STYLES */
+.App {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 3rem;
+  font-family: "Roboto", sans-serif;
+
+  .App-logo {
+    margin: 0 auto 2rem;
+    width: 12rem;
+  }
+}

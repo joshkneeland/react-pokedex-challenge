@@ -1,0 +1,54 @@
+@import "../styles/Variables";
+
+.PokeList {
+  h1 {
+    font-weight: normal;
+    font-size: 1.25rem;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    padding: 1rem 0;
+    border-bottom: 1px solid #d7d7d7;
+  }
+
+  div {
+    margin-bottom: 0.25rem;
+  }
+
+  span {
+    font-weight: 700;
+  }
+
+  span.MuiTypography-body1 {
+    font-weight: 400;
+  }
+
+  .MuiInput-underline:after {
+    border-bottom: 0.125rem solid $lightBlue;
+  }
+
+  .MuiFormControl-root {
+    &:nth-of-type(2) {
+      margin: 1rem 0 0;
+    }
+  }
+
+  .MuiFormControl-root,
+  .MuiInputBase-root {
+    display: flex;
+    max-width: 200px;
+  }
+
+  .search-wrapper {
+    flex-direction: row;
+  }
+
+  .checkbox-wrapper {
+    margin-top: 1rem;
+  }
+}
